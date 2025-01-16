@@ -23,4 +23,13 @@ public class DatoFinal {
         promedio = suma / n.length;
         return promedio;
     }
+     public static double obtenerMejorNota(double[] a){
+ double mejorNota = 0;
+      for(int i = 0; i < a.length; i++) {
+         if(mejorNota < a[i]);
+         mejorNota = a[i];
+      }
+     
+     return mejorNota; 
+}
 }
